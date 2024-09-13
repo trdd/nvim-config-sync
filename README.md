@@ -8,7 +8,7 @@ Using [lazy.nvim](https://github.com/folke/lazy.nvim):
 
 ```lua
 {
-    'yourusername/nvim-git-plugin',
+    'trdd/nvim-config-sync',
     config = function()
         require('git_plugin').setup({
             commit_message = "My custom commit message"  -- You can customize this message
